@@ -1,4 +1,4 @@
-from disutils.core import setup
+from setuptools import setup
 import subprocess, os
 
 def run_command(command):
